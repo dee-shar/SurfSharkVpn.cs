@@ -5,7 +5,6 @@ Mobie-API for [SurfShark VPN](https://play.google.com/store/apps/details?id=com.
 ```cs
 using System;
 using SurfSharkVpnApi;
-using System.Threading.Tasks;
 
 namespace Application
 {
