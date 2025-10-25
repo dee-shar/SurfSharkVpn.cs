@@ -3,10 +3,7 @@ using System.Text;
 using System.Net.Http;
 using System.Text.Json;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
 using System.Net.Http.Headers;
-using System.Security.Principal;
-using System.Security.Cryptography;
 
 namespace SurfSharkVpnApi
 {
@@ -43,7 +40,7 @@ namespace SurfSharkVpnApi
             var responseContent = await response.Content.ReadAsStringAsync();
             return responseContent;
         }
-        
+
         public async Task<string> Login(string email, string password)
         {
             var data = JsonContent.Create(new { username = email, password = password });
