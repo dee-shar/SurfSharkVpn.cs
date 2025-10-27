@@ -3,7 +3,6 @@ Mobie-API for [SurfShark VPN](https://play.google.com/store/apps/details?id=com.
 
 ## Example
 ```cs
-using System;
 using SurfSharkVpnApi;
 
 namespace Application
